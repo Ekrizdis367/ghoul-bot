@@ -1,5 +1,5 @@
 # ghoul-bot
-A Discord Bot for Vampire the Masquerade rule/information referencing.
+A Discord Bot for Vampire the Masquerade rules and information referencing.
 
 Ghoul is a Vampire the Masquerade reference bot for querying 5e Corebook information quickly using Discord Commands.
 
@@ -15,4 +15,4 @@ You can query a list of possible commands using <strong>!ghoul</strong>
 
 This is my first bot that I made to make a friend's VTM Server run more smoothly, and it was a hit with several people. It was suggested that I make it public, so here we are! Go easy!
 
-Discord: Ekrizdis#3957
+<strong>Discord:</strong> Ekrizdis#3957
