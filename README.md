@@ -1,9 +1,56 @@
-# ghoul-bot
-A Discord Bot for Vampire the Masquerade rules and information referencing.
+# The Ghoul Bot
 
-Ghoul is a Vampire the Masquerade reference bot for querying 5e Corebook information quickly using Discord Commands.
+A Discord Bot for Vampire the Masquerade rule \& information referencing.
 
-You can query a list of possible commands using <strong>!ghoul</strong>
+The Ghoul is a VtM reference bot for querying VtM 5e information quickly in Discord.
+
+You can query a list of possible commands using <strong>\!ghoul</strong>
+
+---
+
+## Table of Contents
+>
+
+-
+-
+-
+-
+
+---
+
+## Setup
+>
+
+
+
+---
+
+## Commands
+>
+
+
+
+---
+
+## Support
+
+
+
+---
+
+## Donations
+
+
+
+---
+
+## Copyright
+
+
+
+
+
+
 
 <strong>!d (discipline)</strong> | This command calls on a list of all powers under the provided discipline. <i>Ex: !d Obfuscate</i> <br>
 <strong>!p (power)</strong> | This command provides relevant information on the power provided. <i>Ex: !p Shadow Cloak</i> <br>
