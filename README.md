@@ -1,5 +1,4 @@
 # The Ghoul Bot
-
 > A Discord Bot for Vampire the Masquerade rule \& information referencing.
 
 The Ghoul is a VtM reference bot for querying VtM 5e information quickly in Discord.
@@ -9,34 +8,32 @@ You can query a list of possible commands using <strong>\!ghoul</strong>
 ---
 
 ## Table of Contents
->
 
 - [Files](#files)
 - [Setup](#setup)
 - [Commands](#commands)
-- [Donations](#donations)
+- [Support](#support)
 - [Copyright](#copyright)
 
 ---
 
 ## Files
->
+> A list of the primary files which allow the bot to function so the information is public to server owners and they can feel comfortable adding the bot.
 
-- <strong>ghoul.js</strong>
-- <strong>disciplines.json</strong>
-- <strong>rules.json</strong>
+- <strong>ghoul.js</strong> | The primary javascript file which runs the commands and references the json data.
+- <strong>disciplines.json</strong> | A json file with all of the disciplines and their powers.
+- <strong>rules.json</strong> | A json file with various rule information such as blood potency and compulsions.
 
 ---
 
 ## Setup
->
 
-
+The Ghoul Bot can be added using [this link](https://discordapp.com/oauth2/authorize?client_id=720120092633071638&scope=bot&permissions=19456).
 
 ---
 
 ## Commands
->
+> A list of all possible commands and their description. This list can be queried at any time in Discord by using <strong>!ghoul</strong>
 
 - <strong>!d [discipline]</strong> | This command calls on a list of all powers under the provided discipline. <i>Ex: !d Obfuscate</i> <br>
 - <strong>!d [discipline]</strong> | This command calls on a list of all powers under the provided discipline. <i>Ex: !d Obfuscate</i> <br>
@@ -50,9 +47,20 @@ You can query a list of possible commands using <strong>\!ghoul</strong>
 
 ---
 
-## Donations
->
+## Support
+> Support information and Donations/Thanks.
 
+If you notice a spelling or grammatical error, a bug in the script or commands, or just want to reach out and provide feedback or ideas - please don't hesitate to message me or submit an issue!
+
+#### Donations
+
+While this bot is free to everyone and created for the many VtM fans, it takes a lot of time and effort to create, so things like Donations allow more of this to be created and maintained and the server to be kept up and the Bot live. If you are interested in Donating to help support this work, it is greatly appreciated and allows me to continue maintaining the bot and creating more features or other bots!
+
+#### Thanks
+
+A thank you to <strong>k8terpillar</strong> for her help with gathering the json data.
+
+A thank you to World of Darkness for creating an amazing world and allowing its players to join the <strong>Dark Pack</strong>.
 
 ---
 
