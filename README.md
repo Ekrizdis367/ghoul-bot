@@ -3,7 +3,7 @@
 
 The Ghoul is a VtM reference bot for querying VtM 5e information quickly in Discord.
 
-You can query a list of possible commands using <strong>\!ghoul</strong>
+You can query a list of possible commands using <strong>\!ghoul</strong> and add the bot with [this link](https://discordapp.com/oauth2/authorize?client_id=720120092633071638&scope=bot&permissions=19456)
 
 ---
 
