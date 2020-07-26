@@ -1,0 +1,1099 @@
+{
+    "disciplines": [
+        {
+            "name": "Obfuscate",
+            "abilities": [
+                {
+                    "power": "Cloak of Shadows",
+                    "level": "1",
+                    "reference": "Corebook, 261",
+                    "cost": "Free",
+                    "description": "Maintain cover, make no sound, and don’t move, ONLY detected by mechanical or super-natural means.",
+                    "length": "One Scene"
+                },
+                {
+                    "power": "Silence of Death",
+                    "level": "1",
+                    "reference": "Corebook, 261",
+                    "cost": "Free",
+                    "description": "ONLY works on people in earshot. Does NOT fool electronic sound detectors. ONLY works on the sense of hearing.",
+                    "length": "One Scene"
+                },
+                {
+                    "power": "Unseen Passage",
+                    "level": "2",
+                    "reference": "Corebook, 261",
+                    "cost": "1 Rouse",
+                    "description": "Vampire can move around while staying hidden. User is functionally invisible, per Obfuscate limitations.",
+                    "length": "One Scene/Detected"
+                },
+                {
+                    "power": "Ghost in the Machine",
+                    "level": "3",
+                    "reference": "Corebook, 262",
+                    "cost": "No Additional Cost",
+                    "description": "Appear invisible/masked when viewed live on screen. When viewed later, image seems blurred.",
+                    "length": "Action"
+                },
+                {
+                    "power": "Mask of a Thousand Faces",
+                    "level": "3",
+                    "reference": "Corebook, 262",
+                    "cost": "1 Rouse Check",
+                    "description": "Appear as a nondescript stranger. Will not fool unexpected or hostile individuals.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Conceal",
+                    "prerequisite": "Auspex, 3",
+                    "level": "4",
+                    "reference": "Corebook, 262",
+                    "cost": "1 Rouse Check",
+                    "dice": "Intelligence + Obfuscate",
+                    "description": "User cloaks an inanimate object. People will behave as if object isn’t there unless someones collides with it or it is pointed out.",
+                    "length": "1 night, with additional night per point of margin of win."
+                },
+                {
+                    "power": "Vanish",
+                    "prerequisite": "Cloak of Shadows",
+                    "level": "4",
+                    "reference": "Corebook, 262-3",
+                    "cost": "As per power augmented",
+                    "dice": "Wits + Obfuscate vs Wits + Awareness",
+                    "description": "Activate Cloak of Shadows and Unseen Passage while under direct observation.",
+                    "length": "As per power augmented"
+                },
+                {
+                    "power": "Cloak the Gathering",
+                    "level": "5",
+                    "reference": "Corebook, 263",
+                    "cost": "One Rouse Check in addition to the cost of the power extended",
+                    "description": "The vampire can shelter their companions under the cloak of Obfuscate.",
+                    "length": "As power extended"
+                },
+                {
+                    "power": "Impostor's Guise",
+                    "prerequisite": "Mask of a Thousand Faces",
+                    "level": "5",
+                    "reference": "Corebook, 263",
+                    "cost": "1 Rouse Check",
+                    "description": "With preparation, vampire can make themselves appear as any build and gender.",
+                    "length": "1 Scene"
+                }
+            ]
+        },
+        {
+            "name": "Dominate",
+            "abilities": [
+                {
+                    "power": "Cloud Memory",
+                    "level": "1",
+                    "reference": "Corebook, 256",
+                    "cost": "Free",
+                    "dice": "Charisma + Dominate vs Wits + Resolve", 
+                    "description": "Say, “Forget!” Dominated victim forgets the current moment as well as the last few minutes.",
+                    "length": "Indefinitely"
+                },
+                {
+                    "power": "Compel",
+                    "level": "1",
+                    "reference": "Corebook, 256",
+                    "cost": "Free",
+                    "dice": "Charisma + Dominate vs Wits + Resolve", 
+                    "description": "With eye contact, issue the victim a single-action command to be obeyed.",
+                    "length": "No more than a single scene"
+                },
+                {
+                    "power": "Mesmerize",
+                    "level": "2",
+                    "reference": "Corebook, 256",
+                    "cost": "1 Rouse Check",
+                    "dice": "Manipulation + Dominate vs Intelligence + Resolve", 
+                    "description": "Issue complex commands to victim. Instructions must be carried out immediately and no conditional actions.",
+                    "length": "Command is carried out or the scene ends, whichever comes first."
+                },
+                {
+                    "power": "Dementation",
+                    "prerequisite": "Obfuscate 2",
+                    "level": "2",
+                    "reference": "Corebook, 256-7",
+                    "cost": "1 Rouse Check, per scene",
+                    "dice": "Manipulation + Dominate vs Composure + Intelligence", 
+                    "description": "Requires casual conversation. The victim is agitated as inner demons bubble to the surface, drowning out all reason.",
+                    "length": "1 Scene."
+                },
+                {
+                    "power": "The Forgetful Mind",
+                    "level": "3",
+                    "reference": "Corebook, 257",
+                    "cost": "1 Rouse Check",
+                    "dice": "Manipulation + Dominate vs Intelligence + Resolve", 
+                    "description": "Rewrite victim’s memories, keep the victim’s gaze and attention. Verbally describes the victim’s new memories.",
+                    "length": "Indefinitely."
+                },
+                {
+                    "power": "Submerged Directive",
+                    "level": "3",
+                    "reference": "Corebook, 257",
+                    "cost": "No additional Cost",
+                    "description": "Mesmerize: Command remains dormant till triggered. \"Submerged Directive\" never expires. One suggestion per victim.",
+                    "length": "Passive."
+                },
+                {
+                    "power": "Rationalize",
+                    "level": "4",
+                    "reference": "Corebook, 257",
+                    "cost": "No additional Cost",
+                    "description": "Victim now believes anything they do under the influence of Dominate was of their own free will, however absurd.",
+                    "length": "Indefinitely."
+                },
+                {
+                    "power": "Mass Manipulation",
+                    "level": "5",
+                    "reference": "Corebook, 257",
+                    "cost": "1 Rouse Check in addition to the cost of the power amplified",
+                    "description": "Command entire gatherings of mortals and/or vampires. Can issue instructions and manipulate memories.",
+                    "length": "As per power amplified."
+                },
+                {
+                    "power": "Terminal Decree",
+                    "level": "5",
+                    "reference": "Corebook, 257",
+                    "cost": "No additional Hunger cost, but the Humanity cost is potentially severe",
+                    "description": "Issue commands that directly lead to the harm or death of the victim. Mortals and Vampires, effected with little effort.",
+                    "length": "Passive"
+                }
+
+            ]
+        },
+        {
+            "name": "Animalism",
+            "abilities": [
+                {
+                    "power": "Bond Famulus",
+                    "level": "1",
+                    "reference": "Corebook, 245",
+                    "cost": "Animal must be feed users' Blood on three separate nights, each requires a rouse check",
+                    "description": "Get a animal ghoul. Commands require Cha + Animal Ken, DC 2; increase DC for complex commands. 1 famulus at a time.",
+                    "length": "Till death do you part"
+                },
+                {
+                    "power": "Sense the Beast",
+                    "level": "1",
+                    "reference": "Corebook, 245",
+                    "cost": "Free",
+                    "description": "Roll Resolve + Animalism vs Composure + Subterfuge. Win: hostile terget? if they're kindred/werewolf. Crit: Exact creature + Hunger/Rage level.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Feral Whispers",
+                    "level": "2",
+                    "reference": "Corebook, 245-6",
+                    "cost": "1 Rouse per type of animal",
+                    "description": "Allows for simple communication. Persuade animal: Manipulation + Animalism, DC varies. Summoning: Charisma + Animalism, DC varies.",
+                    "length": "One Scene"
+                },
+                {
+                    "power": "Animal Succulence",
+                    "level": "3",
+                    "reference": "Corebook, 246",
+                    "cost": "Free",
+                    "description": "The vampire can slake additional Hunger from animals. Vampire can consume its famulus, absorbing a sliver of its primary trait.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Quell the Beast",
+                    "level": "3",
+                    "reference": "Corebook, 246",
+                    "cost": "1 Rouse Check",
+                    "description": "Lock eyes with target, place bast into temporary slumber. Mortals become apathetic, can't act other than to stay alive.",
+                    "length": "1 scene, or a number of turns equal to the test margin plus 1."
+                },
+                {
+                    "power": "Unliving Hive",
+                    "prerequisite": "Obfuscate 2",
+                    "level": "3",
+                    "reference": "Corebook, 246-7",
+                    "cost": "No additional Cost",
+                    "description": "Allows user to influence swarms of insects such as flies or roaches. Vampires can adopt swarms as famuli.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Subsume the Spirit",
+                    "level": "4",
+                    "reference": "Corebook, 247",
+                    "cost": "1 Rouse Check. Free if used on famulus.",
+                    "description": "Can control animal and use its senses freely, even during the day. Vampire’s body lies immobile as if in torpor.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Animal Dominion",
+                    "level": "5",
+                    "reference": "Corebook, 247",
+                    "cost": "2 Rouse Checks",
+                    "dice": "Charisma + Animalism",
+                    "description": "Power held over beasts is great enough to command flocks and packs as if they were extensions of their own body.",
+                    "length": "1 Scene/Fulfilled"
+                },
+                {
+                    "power": "Drawing out the Beast",
+                    "level": "5",
+                    "reference": "Corebook, 247-8",
+                    "cost": "1 Rouse Check",
+                    "description": "Can project Beast at the moment of terror or fury frenzy, transferring it into a nearby subject, either mortal or vampire.",
+                    "length": "Frenzy Duration"
+                }
+
+            ]
+        },
+        {
+            "name": "Auspex",
+            "abilities": [
+                {
+                    "power": "Heightened Senses",
+                    "level": "1",
+                    "reference": "Corebook, 249",
+                    "cost": "Free",
+                    "dice": "Wits + Resolve",
+                    "description": "Senses sharpen to a preternatural degree.",
+                    "length": "Until Deactivated"
+                },
+                {
+                    "power": "Sense the Unseen",
+                    "level": "1",
+                    "reference": "Corebook, 249",
+                    "cost": "Free",
+                    "dice": "Wits + Auspex or Resolve + Auspex",
+                    "description": "Senses attuned to dimensions beyond the mundane, sense presences otherwise hidden.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Premonition",
+                    "level": "2",
+                    "reference": "Corebook, 249",
+                    "cost": "Free or 1 Rouse Check",
+                    "dice": "Resolve + Auspex",
+                    "description": "Flashes of insight.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Scry the Soul",
+                    "level": "3",
+                    "reference": "Corebook, 250",
+                    "cost": "1 Rouse Check",
+                    "dice": "Resolve + Auspex",
+                    "description": "Perceive person’s aura as colors. Auras reveal emotional state, Resonance, and supernatural traits.",
+                    "length": "One turn, or Storyteller’s discretion"
+                },
+                {
+                    "power": "Share the Senses",
+                    "level": "3",
+                    "reference": "Corebook, 250",
+                    "cost": "1 Rouse Check",
+                    "dice": "Resolve + Auspex",
+                    "description": "Tap into senses. User retains their own perceptions. Stranger: requires line of sight to initiate. Long distance: Victim must have user’s Blood.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Spirit's Touch",
+                    "level": "4",
+                    "reference": "Corebook, 250-1",
+                    "cost": "1 Rouse Check",
+                    "dice": "Intelligence + Auspex",
+                    "description": "Touch inanimate object or the ground at a location, sense the emotional residue left by those that handled the object or visited location.",
+                    "length": "One Turn"
+                },
+                {
+                    "power": "Clairvoyance",
+                    "level": "5",
+                    "reference": "Corebook, 251",
+                    "cost": "1 Rouse Check",
+                    "dice": "Intelligence + Auspex",
+                    "description": "Enters light trance, becomes master of surroundings. Gather information from roughly a city-block sized area.",
+                    "length": "A few minutes for information gathering, up to a night for vigilance."
+                },
+                {
+                    "power": "Posession",
+                    "prerequisite": "Dominate 3",
+                    "level": "5",
+                    "reference": "Corebook, 251-2",
+                    "cost": "2 Rouse Checks",
+                    "description": "Possess mortal body. They can expereince, do anything and go anywhere the subject could.",
+                    "length": "Until ended, voluntarily or involuntarily."
+                },
+                {
+                    "power": "Telepathy",
+                    "level": "5",
+                    "reference": "Corebook, 252",
+                    "cost": "One Rouse Check (plus one Willpower vs non-consenting vampires)",
+                    "dice": "Resolve + Auspex vs Wits + Subterfuge",
+                    "description": "Read minds, as well as project their own thoughts into the minds of others.",
+                    "length": "Roughly one minute per Rouse Check. Increased to a full scene w/ consent."
+                }
+            ]
+        },
+        {
+            "name": "Blood Sorcery",
+            "abilities": [
+                {
+                    "power": "Corrosive Vitae",
+                    "level": "1",
+                    "reference": "Corebook, 272",
+                    "cost": "1 or more Rouse Checks",
+                    "description": "Altering the properties of some of their own Blood, the user can make it highly corrosive.",
+                    "length": "N/A"
+                },
+                {
+                    "power": "A Taste for Blood",
+                    "level": "1",
+                    "reference": "Corebook, 273",
+                    "cost": "Free",
+                    "dice": "Resolve + Blood Sorcery",
+                    "description": "By tasting a drop of blood, the user can discern certain basic traits of the one to whom it belongs.",
+                    "length": "N/A"
+                },
+                {
+                    "power": "Extinguish Vitae",
+                    "level": "2",
+                    "reference": "Corebook, 273",
+                    "cost": "1 Rouse Check",
+                    "dice": "Intelligence + Blood Sorcery vs Stamina +Composure",
+                    "description": "The user can intentionally remove the unlife-giving properties of some of the Blood in another vampire.",
+                    "length": "N/A"
+                },
+                {
+                    "power": "Blood of Potency",
+                    "level": "3",
+                    "reference": "Corebook, 273",
+                    "cost": "1 Rouse Check",
+                    "dice": "Resolve + Blood Sorcery",
+                    "description": "The vampire can concentrate their Blood, increasing its potency temporarily.",
+                    "length": "1 Scene or 1 Night"
+                },
+                {
+                    "power": "Scorpion's Touch",
+                    "level": "3",
+                    "reference": "Corebook, 273-4",
+                    "cost": "1 or More Rouse Checks",
+                    "dice": "Strength + Blood Sorcery vs Stamina + Occult or Fortitude",
+                    "description": "Blood becomes poisonous, capable of affecting mortals and vampires alike.",
+                    "length": "The poison remains potent for one scene"
+                },
+                {
+                    "power": "Theft of Vitae",
+                    "level": "4",
+                    "reference": "Corebook, 274",
+                    "cost": "1 Rouse Check",
+                    "dice": "Wits + Blood Sorcery vs Wits + Occult",
+                    "description": "Opens a wound in a major artery, blood shoots through air to mouth of the user. Mortal acts as if in the throes of the Kiss.",
+                    "length": "1 Feeding"
+                },
+                {
+                    "power": "Baal's Caress",
+                    "level": "5",
+                    "reference": "Corebook, 274",
+                    "cost": "1 or More Rouse Checks",
+                    "dice": "Strength + Blood Sorcery vs Stamina + Occult or Fortitude",
+                    "description": "The vampire can transmute their Blood into an extremely aggressive poison, lethal to mortal and Kindred alike.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Cauldron of Blood",
+                    "level": "5",
+                    "reference": "Corebook, 274",
+                    "cost": "1 Rouse Check and gain 1 (or more) Stains",
+                    "description": "Boil the blood of a victim in their own veins, causing massive damage and excruciating pain.",
+                    "length": "1 Turn"
+                }
+            ]
+        },
+        {
+            "name": "Celerity",
+            "abilities": [
+                {
+                    "power": "Cat's Grace",
+                    "level": "1",
+                    "reference": "Corebook, 252",
+                    "cost": "Free",
+                    "description": "Balance and grace. Walk and/or run on ledges and wires. Keep balance on the slimmest of supports.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Rapid Reflexes",
+                    "level": "1",
+                    "reference": "Corebook, 253",
+                    "cost": "Free",
+                    "description": "Can’t defy the laws of nature, perceive events instantly and can react to them with superhuman alacrity.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Fleetness",
+                    "level": "2",
+                    "reference": "Corebook, 253",
+                    "cost": "1 Rouse Check",
+                    "description": "Their mastery of Celerity now allows the vampire to move and react with dizzying speed.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Blink",
+                    "level": "3",
+                    "reference": "Corebook, 253",
+                    "cost": "1 Rouse Check",
+                    "dice": "Dexterity + Athletics, or as needed",
+                    "description": "Closes in on a foe, engaging or escaping in the blink of an eye.",
+                    "length": "1 Turn"
+                },
+                {
+                    "power": "Traversal",
+                    "level": "3",
+                    "reference": "Corebook, 253-4",
+                    "cost": "1 Rouse Check",
+                    "dice": "Dexterity + Athletics",
+                    "description": "Can run or climb along any surface, including vertical and even liquid mediums.",
+                    "length": "1 Turn"
+                },
+                {
+                    "power": "Draught of Elegance",
+                    "level": "4",
+                    "reference": "Corebook, 254",
+                    "cost": "1 Rouse Check",
+                    "description": "Blood becomes saturated with the power of Celerity, conveying a part of that power to anyone who drinks of it.",
+                    "length": "One night; until the next feeding or the vampire reaches Hunger 5"
+                },
+                {
+                    "power": "Unerring Aim",
+                    "prerequisite": "Auspex 2",
+                    "level": "4",
+                    "reference": "Corebook, 254",
+                    "cost": "1 Rouse Check",
+                    "description": "Can aim and throw or fire any weapon at a target as if the target were stationary.",
+                    "length": "A single attack"
+                },
+                {
+                    "power": "Lightning Strike",
+                    "level": "5",
+                    "reference": "Corebook, 254",
+                    "cost": "1 Rouse Check",
+                    "description": "Vampire can strike with fist or melee weapon at such speed that the opponent is unable to defend or take evasive action.",
+                    "length": "A single attack"
+                },
+                {
+                    "power": "Split Second",
+                    "level": "5",
+                    "reference": "Corebook, 254",
+                    "cost": "1 Rouse Check",
+                    "description": "Speed vampire moves catches up with their supercharged perception, allowing them to react to events around them at a moment’s notice.",
+                    "length": "Roughly one action, as determined by the Storyteller."
+                }
+            ]
+        },
+        {
+            "name": "Fortitude",
+            "abilities": [
+                {
+                    "power": "Resilience",
+                    "level": "1",
+                    "reference": "Corebook, 258",
+                    "cost": "Free",
+                    "description": "Endowed with supernatural endurance, the user can strengthen their physical resolve.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Unswayable Mind",
+                    "level": "1",
+                    "reference": "Corebook, 258",
+                    "cost": "Free",
+                    "description": "Ability to resist attempts to sway them through mundane charms, coercion, and wiles.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Toughness",
+                    "level": "2",
+                    "reference": "Corebook, 258",
+                    "cost": "1 Rouse Check",
+                    "description": "Innate ability to ignore damage that would otherwise inconvenience and even disable others.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Enduring Beasts",
+                    "prerequisite": "Animalism 1",
+                    "level": "2",
+                    "reference": "Corebook, 258-9",
+                    "cost": "Free (for famulus); One Rouse Check (for other animals)",
+                    "description": "User shares a small portion of their unnatural toughness with the animals they influence.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Defy Bane",
+                    "level": "3",
+                    "reference": "Corebook, 259",
+                    "cost": "1 Rouse Check",
+                    "description": "Can make themselves temporarily resistant causes of Final Death.",
+                    "length": "1 scene or until expired, whichever comes first"
+                },
+                {
+                    "power": "Fortify the Inner Facade",
+                    "level": "3",
+                    "reference": "Corebook, 259",
+                    "cost": "Free",
+                    "description": "User protects thoughts and emotions from supernatural prying.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Draught of Endurance",
+                    "level": "4",
+                    "reference": "Corebook, 259",
+                    "cost": "1 Rouse Check",
+                    "description": "Blood saturated with the power of Fortitude, conveying a part of that power to anyone who drinks of it.",
+                    "length": "One night; until the next feeding or the vampire reaches Hunger 5"
+                },
+                {
+                    "power": "Flesh of Marble",
+                    "level": "5",
+                    "reference": "Corebook, 259-60",
+                    "cost": "2 Rouse Checks",
+                    "description": "Blood causes skin to harden, taking on a marble-like sheen that stops almost any blow.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Prowess from Pain",
+                    "level": "5",
+                    "reference": "Corebook, 260",
+                    "cost": "1 Rouse Check",
+                    "description": "Injuries and impairments now only make user stronger.",
+                    "length": "1 Scene"
+                }
+            ]
+        },
+        {
+            "name": "Potence",
+            "abilities": [
+                {
+                    "power": "Lethal Body",
+                    "level": "1",
+                    "reference": "Corebook, 264",
+                    "cost": "Free",
+                    "description": "User’s unarmed attacks can now do Aggravated Health damage to mortals.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Soaring Leap",
+                    "level": "1",
+                    "reference": "Corebook, 264",
+                    "cost": "Free",
+                    "description": "User can jump equal to 3xs their BP vertically, and 5xs horizontally.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Prowess",
+                    "level": "2",
+                    "reference": "Corebook, 264",
+                    "cost": "One Rouse Check",
+                    "description": "Add BP of user to their unarmed damage value + to feats of Strength.",
+                    "length": "One Scene"
+                },
+                {
+                    "power": "Brutal Feeding",
+                    "level": "3",
+                    "reference": "Corebook, 264",
+                    "cost": "Free",
+                    "description": "Drain human completely in seconds. Every point of Hunger slaked causes one point of Aggravated Health damage.",
+                    "length": "One Feeding"
+                },
+                {
+                    "power": "Spark of Rage",
+                    "prerequisite": "Presence 3",
+                    "level": "3",
+                    "reference": "Corebook, 265",
+                    "cost": "One Rouse Check",
+                    "dice": "Manipulation + Potence",
+                    "description": "User adds their BP to any attempt to rile or incite a person/crowd to violence.",
+                    "length": "One Scene"
+                },
+                {
+                    "power": "Uncanny Grip",
+                    "level": "3",
+                    "reference": "Corebook, 265",
+                    "cost": "One Rouse Check",
+                    "description": " A vampire using this power automatically succeeds on any Skill test to climb a non-metallic surface.",
+                    "length": "One Scene"
+                },
+                {
+                    "power": "Draught of Might",
+                    "level": "4",
+                    "reference": "Corebook, 265",
+                    "cost": "One Rouse Check",
+                    "description": "Drinking 1 Rouse worth of Blood from user gifts drinker w/ temporary BP one half of the BP (rounded down) of the donor.",
+                    "length": "One Night/Feeding/Hunger 5"
+                },
+                {
+                    "power": "Earthshock",
+                    "level": "5",
+                    "reference": "Corebook, 265",
+                    "cost": "Two Rouse Checks",
+                    "description": "No additional test needed for shockwave. Anyone within 5 meter radius must make a Dex + Ath roll (DC 3).",
+                    "length": "One Use"
+                },
+                {
+                    "power": "Fist of Caine",
+                    "level": "5",
+                    "reference": "Corebook, 266",
+                    "cost": "One Rouse Check",
+                    "description": "For one scene the user can inflict Aggravated Health damage to mortals and supernaturals alike while Brawling.",
+                    "length": "One Scene"
+                }
+            ]
+        },
+        {
+            "name": "Presence",
+            "abilities": [
+                {
+                    "power": "Awe",
+                    "level": "1",
+                    "reference": "Corebook, 267",
+                    "cost": "Free",
+                    "description": "Add Presence to Pers, Perf, or Cha rolls. Resist w/ Comp + Int vs Man + Pres.",
+                    "length": "One Scene/Ended"
+                },
+                {
+                    "power": "Daunt",
+                    "level": "1",
+                    "reference": "Corebook, 267",
+                    "cost": "Free",
+                    "description": "User’s Presence added to Int rolls. Attack: Res+Comp roll at DC2. Cannot use both Awe and Daunt.",
+                    "length": "One Scene/Ended"
+                },
+                {
+                    "power": "Lingering Kiss",
+                    "level": "2",
+                    "reference": "Corebook, 267",
+                    "cost": "Free",
+                    "description": "Mortals, addicted to the kiss. Add Presence to Cha rolls against target. Resist: WP roll. 3 consecutive weeks or get a crit.",
+                    "length": "Until resisted"
+                },
+                {
+                    "power": "Dread Gaze",
+                    "level": "3",
+                    "reference": "Corebook, 267-8",
+                    "cost": "One Rouse Check",
+                    "dice": "Charisma + Presence vs Composure + Resolve",
+                    "description": "Displaying fangs, face predatory, user rolls a contest of Cha + Pres vs Comp + Res.",
+                    "length": "One Turn"
+                },
+                {
+                    "power": "Entrancement",
+                    "level": "3",
+                    "reference": "Corebook, 268",
+                    "cost": "One Rouse Check",
+                    "dice": "Charisma + Presence vs Composure + Wits",
+                    "description": "Have subject’s attention and win contest. Success: user adds dice equal to Presence to Social dp against the entranced subject.",
+                    "length": "One Hour + 1/margin point"
+                },
+                {
+                    "power": "Irresistible Voice",
+                    "level": "4",
+                    "prerequisite": "Dominate 1",
+                    "reference": "Corebook, 268",
+                    "cost": "Free",
+                    "description": "The vampire now only needs their voice to be heard in order to employ Dominate powers.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Summon",
+                    "level": "4",
+                    "reference": "Corebook, 268",
+                    "cost": "One Rouse Check",
+                    "dice": "Manipulation + Presence vs Composure + Intelligence",
+                    "description": "User concentrates for 5 minutes and thinks of person being summoned, then rolls Man + Prese vs Comp + Int.",
+                    "length": "One Night"
+                },
+                {
+                    "power": "Majesty",
+                    "level": "5",
+                    "reference": "Corebook, 268-9",
+                    "cost": "Two Rouse Checks",
+                    "dice": "Charisma + Presence vs Composure + Resolve",
+                    "description": "People in the presence of the user stare or avert their eyes in fear or submission.",
+                    "length": "One Scene"
+                },
+                {
+                    "power": "Star Magnetism",
+                    "level": "5",
+                    "reference": "Corebook, 269",
+                    "cost": "Additional Rouse Check",
+                    "description": "Awe, Daunt, and Entrancement can be transmitted through live feeds via screens or phones.",
+                    "length": "As Power Used"
+                }
+            ]
+        },
+        {
+            "name": "Protean",
+            "abilities": [
+                {
+                    "power": "Eye of the Beast",
+                    "level": "1",
+                    "reference": "Corebook, 269",
+                    "cost": "Free",
+                    "description": "Red eyes, gives user sight in total absence of light. +2 dice for intimidation against mortals.",
+                    "length": "As long as desired."
+                },
+                {
+                    "power": "Weight of the Feather",
+                    "level": "1",
+                    "dice": "Wits + Survival",
+                    "reference": "Corebook, 269-70",
+                    "cost": "Free",
+                    "description": "With time to prepare no roll is required. Reaction: Wits + Sur vs DC3.",
+                    "length": "As long as desired"
+                },
+                {
+                    "power": "Feral Weapons",
+                    "level": "2",
+                    "reference": "Corebook, 270",
+                    "cost": "One Rouse Check",
+                    "description": "No roll needed. +2 modifier to Brawl, and causes aggravated health damage to mortal. Superficial damage is not halved.",
+                    "length": "One Scene"
+                },
+                {
+                    "power": "Earth Meld",
+                    "level": "3",
+                    "reference": "Corebook, 270",
+                    "cost": "One Rouse Check",
+                    "description": "No test is required beyond being on a natural surface. It takes a turn to sink into the surface.",
+                    "length": "One day or more, or until disturbed."
+                },
+                {
+                    "power": "Shapechange",
+                    "level": "3",
+                    "reference": "Corebook, 270-1",
+                    "cost": "One Rouse Check",
+                    "description": "No test is required and the transformation takes one turn with no other actions.",
+                    "length": "One Scene/Ended"
+                },
+                {
+                    "power": "Metamorphosis",
+                    "level": "4",
+                    "reference": "Corebook, 271",
+                    "cost": "One Rouse Check",
+                    "description": "Grants an additional animal form, same as Shapechange, but user can change their size.",
+                    "length": "One Scene/Ended"
+                },
+                {
+                    "power": "Mist Form",
+                    "level": "5",
+                    "reference": "Corebook, 271",
+                    "cost": "1-3 Rouse Checks",
+                    "description": "No roll, takes up to 3 turns. Can only be damaged by sunlight, fire, and immaterial supernatural attacks.",
+                    "length": "One Scene/Ended"
+                },
+                {
+                    "power": "The Unfettered Heart",
+                    "level": "5",
+                    "reference": "Corebook, 271",
+                    "cost": "Free",
+                    "description": "Increases Staking diff +3. Requires crit to penetrate in combat. Resist: Rouse and Str + Res (DC5) 1 per hour. Cannot be done at Hunger 5.",
+                    "length": "Passive"
+                }
+            ]
+        },
+        {
+            "name": "Rituals",
+            "abilities": [
+                {
+                    "power": "Blood Walk",
+                    "level": "1",
+                    "reference": "Corebook, 276",
+                    "ingredients": "A silver cup filled with Blood from the subject. (One Rouse Check’s worth).",
+                    "process": "User mixes their Blood with subject’s and repeats an incantation for roughly an hour.",
+                    "summary": "Expands upon the power A Taste for Blood allowing the user to learn more details about the subject studied."
+                },
+                {
+                    "power": "Clinging of the Insect",
+                    "level": "1",
+                    "reference": "Corebook, 276",
+                    "ingredients": "A living spider.",
+                    "process": "Fills vial with Blood and crushes spider into it before ingesting. (No Hunger gained.) Only works on themselves; others gain no benefit.",
+                    "summary": "Gains ability to cling to walls like a grotesque insect or spider."
+                },
+                {
+                    "power": "Craft Bloodstone",
+                    "level": "1",
+                    "reference": "Corebook, 276",
+                    "ingredients": "A pebble of iron ore or a small magnet and a liter of blood from any source in a silver bowl",
+                    "process": "Blood into bowl, recites chant for an hour for 2 nights. The 'stone' absorbs blood for 3 nights; liquid appears translucent.",
+                    "summary": "Creating a magical tracker to which the caster always knows the direction as well as general distance."
+                },
+                {
+                    "power": "Wake with Evening’s Freshness",
+                    "level": "1",
+                    "reference": "Corebook, 276-7",
+                    "ingredients": "The burnt bones and feathers of a rooster",
+                    "process": "Mixes ashes with their own Blood, drawing a circle with the mixture around their place of sleep.",
+                    "summary": "Allows the caster to awake at any sign of danger, fully alert as if awake during the night."
+                },
+                {
+                    "power": "Ward Against Ghouls",
+                    "level": "1",
+                    "reference": "Corebook, 277",
+                    "ingredients": "Nothing apart from the usual requirement of the caster’s Blood.",
+              
+                    "summary": "Wary Tremere created this ritual to protect themselves from the minions of vengeful rivals."
+                },
+                {
+                    "power": "Communicate with Kindred Sire",
+                    "level": "2",
+                    "reference": "Corebook, 277",
+                    "ingredients": "An object previously possessed by the sire and a silver bowl filled with clear water.",
+                    "process": "Submerges object in water and lets their Blood drip into the bowl, concentrating upon the last memory of their sire for up to 30 minutes.",
+                    "summary": "Uses bond between sire and childe to open a bridge between minds, creates telepathic link for long-distance communication."
+                },
+                {
+                    "power": "Eyes of Babel",
+                    "level": "2",
+                    "reference": "Corebook, 277",
+                    "ingredients": "A fresh eye and tongue of a person",
+                    "process": "Ingredients fresh from the victim, vampire chews and swallows them. (This most likely incurs a Stain.)",
+                    "summary": "Ingest the tongue and an eye of a person, gain the ability to read and speak any language known by the victim."
+                },
+                {
+                    "power": "Illuminate the Trail of Prey",
+                    "level": "2",
+                    "reference": "Corebook, 277",
+                    "ingredients": "A white satin ribbon.",
+                    "process": "The performer of the ritual soaks the ribbon in their own Blood, setting it alight.",
+                    "summary": "Caster can perceive previous whereabouts of a designated person as a subtly glowing trail, visible only to them."
+                },
+                {
+                    "power": "Truth of Blood",
+                    "level": "2",
+                    "reference": "Corebook, 277",
+                    "ingredients": "One pint of blood from the subject.",
+                    "process": "Mixes their own Blood with that of the subject in a vessel large enough to allow for the dipping of the finger.",
+                    "summary": "Ritual creates a mystic potion capable of sifting lies from truth."
+                },
+                {
+                    "power": "Ward Against Spirits",
+                    "level": "2",
+                    "reference": "Corebook, 278",
+                    "ingredients": "A handful of salt (in some versions, a handful of brick dust) mixed with the Blood.",
+                    "summary": "Wards item against incorporeal beings. Any attempt by them to manipulate or pass through the item triggers the effect."
+                },
+                {
+                    "power": "Warding Circle Against Ghouls",
+                    "level": "2",
+                    "reference": "Corebook, 278",
+                    "ingredients": "The caster draws the Warding circle with a human bone dipped in the blood.",
+                    "summary": "This Ritual creates a circular Ward on the floor or ground, intended to prevent the passage of ghouls."
+                },
+                {
+                    "power": "Dagon’s Call",
+                    "level": "3",
+                    "reference": "Corebook, 278",
+                    "ingredients": "A gold inlaid ceremonial dagger.",
+                    "process": "Must be exposed the caster’s Blood. Min 1 hour, Max 1 week. Caster pierces their own skin with the ceremonial dagger.",
+                    "summary": "User ruptures the blood vessels of the victim."
+                },
+                {
+                    "power": "Deflection of Wooden Doom",
+                    "level": "3",
+                    "reference": "Corebook, 278",
+                    "ingredients": "Wood splinters or shavings.",
+                    "process": "Mixes shavings with their Blood and draws a circle around themselves. Meditate in circle for an hour, then place wooden splinter under their tongue.",
+                    "summary": "Protects themselves from being staked. Stake shatters before penetrating the skin."
+                },
+                {
+                    "power": "Essence of Air",
+                    "level": "3",
+                    "reference": "Corebook, 278",
+                    "ingredients": "Leaves and berries of belladonna.",
+                    "process": "Steeps belladonna in their Blood, reducing the brew over a brazier while incanting words of power.",
+                    "summary": "Potion that when imbibed allows for limited flight."
+                },
+                {
+                    "power": "Firewalker",
+                    "level": "3",
+                    "reference": "Corebook, 279",
+                    "ingredients": "A fingertip of the caster.",
+                    "process": "Cuts one of their fingertips off and burns it together with their Blood in a golden chalice or bowl.",
+                    "summary": "Make themselves and even their comrades resistant to fire."
+                },
+                {
+                    "power": "Ward Against Lupines",
+                    "level": "3",
+                    "reference": "Corebook, 279",
+                    "ingredients": "A handful of silver dust mixed with the Blood.",
+                    "summary": "Wards item against werewolves, in any form. Any attempt by them to touch the item triggers the effect."
+                },
+                {
+                    "power": "Warding Circle Against Spirits",
+                    "level": "3",
+                    "reference": "Corebook, 279",
+                    "ingredients": "The caster draws the Warding circle with an iron knife dipped in salt and Blood.",
+                    "summary": "Circular Ward on the floor or ground, prevent passage of spirits."
+                },
+                {
+                    "power": "Defense of the Sacred Haven",
+                    "level": "4",
+                    "reference": "Corebook, 279",
+                    "ingredients": "Nothing but the Blood of the caster.",
+                    "process": "Inscribes a number of sigils and glyphs on and around the area to be protected.",
+                    "summary": "Can ward their haven against the sun itself."
+                },
+                {
+                    "power": "Eyes of the Nighthawk",
+                    "level": "4",
+                    "reference": "Corebook, 279-80",
+                    "ingredients": "The eyes of the bird used, taken at the conclusion of the Ritual.",
+                    "process": "The caster feeds their Blood to the bird and enters a trance.",
+                    "summary": "Possess a carnivorous fowl, directing its flight and seeing through its eyes."
+                },
+                {
+                    "power": "Incorporeal Passage",
+                    "level": "4",
+                    "reference": "Corebook, 280",
+                    "ingredients": "A mirror.",
+                    "process": "The caster spills their Blood on the mirror, chanting, and then breaks it.",
+                    "summary": "Assumes an incorporeal state, able to freely pass through objects and rendered totally immune to physical damage."
+                },
+                {
+                    "power": "Ward Against Cainites",
+                    "level": "4",
+                    "reference": "Corebook, 280",
+                    "ingredients": "Ash from still-burning fire; risk terror frenzy, and cannot complete the night of a terror frenzy.",
+                    "summary": "Wards an item against all vampires except the caster. Any attempt by them to touch the item triggers the effect."
+                },
+                {
+                    "power": "Warding Circle Against Lupines",
+                    "level": "4",
+                    "reference": "Corebook, 280",
+                    "ingredients": "The caster draws the Warding circle with a silver knife dipped in wolfsbane and Blood.",
+                    "summary": "This ward uses the standard rules for Warding circles (p. 275)."
+                },
+                {
+                    "power": "Escape to True Sanctuary",
+                    "level": "5",
+                    "reference": "Corebook, 280",
+                    "ingredients": "Two charred circles of approximately a meter in diameter.",
+                    "process": "Burns circles into the ground or floor with an open flame. 2 hours of chanting per night and 2 Rouse Checks, 3 nights. In total, 12 Rouse Checks of Blood from caster.",
+                    "summary": "2 mystic circles in an arduous ritual, caster can instantly travel from one to the other."
+                },
+                {
+                    "power": "Heart of Stone",
+                    "level": "5",
+                    "reference": "Corebook, 281",
+                    "ingredients": "A stone slab and a wax candle drenched with the Blood of the caster.",
+                    "process": "Lies on stone slab with candle on their chest letting it burn down to nothing. 1 Agg damagage + terror frenzy DC3. To reverse process, they must repeat the ritual.",
+                    "summary": "Ritual turns caster’s unliving heart to stone. This makes them immune to stakes and completely remorseless and cold-hearted."
+                },
+                {
+                    "power": "Shaft of Belated Dissolution",
+                    "level": "5",
+                    "reference": "Corebook, 281",
+                    "ingredients": "A stake carved of rowan wood, inscribed with baneful runes.",
+                    "process": "Drenches stake with 2 Rouse Checks worth of Blood, while blackening it in an oak-wood fire while reading incantations over it. Ritual takes 5 hours to complete.",
+                    "summary": "Seeks out the heart of the vampire it’s aimed at but actually causes Final Death when reaching its target."
+                },
+                {
+                    "power": "Warding Circle Against Cainites",
+                    "level": "5",
+                    "reference": "Corebook, 281",
+                    "ingredients": "Draw Warding Circle with a rowan wand dipped in the mixture of ash from a still-burning fire and Blood.",
+                    "summary": "This ward uses the standard rules for Warding Circles (p. 275)."
+                }
+            ]
+        },
+        {
+            "name": "Oblivion",
+            "abilities": [
+                {
+                    "power": "Shadow Cloak",
+                    "level": "1",
+                    "reference": "Chicago by Night, 293",
+                    "cost": "Free",
+                    "description": "Applies influence of Oblivion on shadows, the user masks their appearance or seems more sinister and threatening.",
+                    "length": "Passive"
+                },
+                {
+                    "power": "Oblivion's Sight",
+                    "level": "1",
+                    "reference": "Chicago by Night, 293",
+                    "cost": "Free",
+                    "description": "Close eyes, Upon opening them, irises are black, and they can now see clearly within pitch blackness and see ghosts",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Shadow Cast",
+                    "level": "2",
+                    "reference": "Chicago by Night, 293-4",
+                    "cost": "1 Rouse Check",
+                    "description": "Draws upon darkness in user to project shadow and manifest powers. Shadow mimics user, can be distorted.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Arms of Ahriman",
+                    "prerequisite": "Potence 2",
+                    "level": "2",
+                    "reference": "Chicago by Night, 294",
+                    "cost": "1 Rouse Check",
+                    "dice": "Wits + Oblivion",
+                    "description": "Summons appendages from shadows within line of sight. Shadows hold victim in place or they are smothered.",
+                    "length": "One scene or until ended or destroyed"
+                },
+                {
+                    "power": "Shadow Persepctive",
+                    "level": "3",
+                    "reference": "Chicago by Night, 294",
+                    "cost": "1 Rouse check",
+                    "description": "Project senses into any shadow within line of sight, seeing and hearing as if they were hiding in it.",
+                    "length": "Up to 1 Scene"
+                },
+                {
+                    "power": "Touch of Oblivion",
+                    "level": "3",
+                    "reference": "Chicago by Night, 294-5",
+                    "cost": "1 Rouse check",
+                    "description": "Channels power through their vitae and energy makes contact with a victim through physical touch.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Stygian Shroud",
+                    "level": "4",
+                    "reference": "Chicago by Night, 295",
+                    "cost": "1 Rouse check",
+                    "description": "Seen as a shadow expanding over every surface in the area. Struggle to see and hear their surroundings.",
+                    "length": "1 Scene"
+                },
+                {
+                    "power": "Shadow Step",
+                    "level": "5",
+                    "reference": "Chicago by Night, 295",
+                    "cost": "1 Rouse check",
+                    "description": "User disappears only to reappear from the same or another shadow further away.",
+                    "length": "1 Turn"
+                },
+                {
+                    "power": "Tenebrous Avatar",
+                    "level": "5",
+                    "reference": "Chicago by Night, 295",
+                    "cost": "2 Rouse Checks",
+                    "description": "Becomes shadow, able to slither over surfaces and through gaps and cracks. Harmed by fire and sunlight.",
+                    "length": "1 scene or until ended"
+                }
+            ]
+        },
+        {
+            "name": "", 
+            "abilities": [
+                {
+                    "power": "",
+                    "level": "",
+                    "reference": "",
+                    "cost": "",
+                    "description": "",
+                    "length": ""
+                }
+
+            ]
+        }
+    ]
+}

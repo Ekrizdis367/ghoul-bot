@@ -1,0 +1,195 @@
+{
+    "compulsions": [
+        {
+            "name": "Hunger",
+            "dice": ["1","2","3"],
+            "description": "**[-2 to rolls not for Compulsion]** Until the vampire slakes one hunger, they will do *anything* to satisfy their craving.",
+            "reference": "Corebook, 208"
+        },
+        {
+            "name": "Dominance",
+            "dice": ["4","5"],
+            "description": "**[-2 to rolls not for Compulsion]** Without help or teamwork the vampire has a need to *win*, to *gloat* about it, and lasts until they do so; they'll do anything to achieve this.",
+            "reference": "Corebook, 208-209"
+        },
+        {
+            "name": "Harm",
+            "dice": ["6","7"],
+            "description": "**[-2 to rolls not for Compulsion]** A strong desire to harm someone or something of value, simply because they can, and lasts until they do so. This can be physical, emotional, or social harm.",
+            "reference": "Corebook, 209"
+        },
+        {
+            "name": "Paranoia",
+            "dice": ["8","9"],
+            "description": "**[-2 to rolls not for Compulsion]** Paranoid of anyone or anything, they have a need to retreat at all costs and this ends when they spend an hour in a 'safe spot'.",
+            "reference": "Corebook, 209-210"
+        },
+        {
+            "name": "Clan Compulsion",
+            "dice": ["0"],
+            "clan": [
+                {
+                    "name": "Brujah",
+                    "compulsion": "Rebellion",
+                    "description": "**[-2 to All Rolls]** This Compulsion ends once they've changed someone's mind or rebelled against their orders.",
+                    "reference": "Corebook, 210"
+                },
+                {
+                    "name": "Gangrel",
+                    "compulsion": "Feral Impulses",
+                    "description": "**[-3 to Manipulation/Intelligence]** For one scene they resort to an animalistic state and can only speak in one-word sentences.",
+                    "reference": "Corebook, 210"
+                },
+                {
+                    "name": "Malkavian",
+                    "compulsion": "Delusion",
+                    "description": "**[-2 to Dexterity/Manipulation/Composure/Wits]** For one scene the vampire's mind and perceptions are skewed.",
+                    "reference": "Corebook, 210"
+                },
+                {
+                    "name": "Nosferatu",
+                    "compulsion": "Cryptophilia",
+                    "description": "**[-2 to rolls not for Compulsion]** This Compulsion ends when the Nosferatu learns a useful secret.",
+                    "reference": "Corebook, 210"
+                },
+                {
+                    "name": "Toreador",
+                    "compulsion": "Obsession",
+                    "description": "**[-2 to rolls not for Compulsion]** Obsessed with a single gorgeous thing for one scene or until they can no longer perceive the thing.",
+                    "reference": "Corebook, 210"
+                },
+                {
+                    "name": "Tremere",
+                    "compulsion": "Perfectionism",
+                    "description": "**[-2 to All Rolls]** Until a critical or end of scene, the Tremere seeks obessive perfectionism. Reduce the penalty for repeated actions.",
+                    "reference": "Corebook, 210"
+                },
+                {
+                    "name": "Ventrue",
+                    "compulsion": "Arrogance",
+                    "description": "**[-2 to rolls not for Leadership]** The Ventrue has a need to assume command until an order is naturally obeyed.",
+                    "reference": "Corebook, 211"
+                },
+                {
+                    "name": "Lasombra",
+                    "compulsion": "Ruthlessness",
+                    "description": "**[-2 to All Rolls]** Focused on achieving their goals at any cost, they receive a dice penalty until the redeem a failure.",
+                    "reference": "Chicago by Night, 292"
+                },
+                {
+                    "name": "Banu",
+                    "compulsion": "Judgment",
+                    "description": "**[-3 to All Rolls]** With a compulsion to punish transgression, they suffer a 3 dice penalty until they slake hunger from anyone that acts against a conviction.",
+                    "reference": "Camarilla, 167-168"
+                },
+                {
+                    "name": "Ministry",
+                    "compulsion": "Transgression",
+                    "description": "**[-2 to rolls not for Compulsion]** Suffering a need to entice someone to break a Tenet or Conviction, and causing a Stain before ending the Compulsion.",
+                    "reference": "Anarch, 185"
+                }
+            ]
+        }
+    ],
+    "blood_potency": [
+        {
+            "level": "0",
+            "surge": "None",
+            "mended": "1 Superficial Damage",
+            "bonus": "None",
+            "reroll": "None",
+            "severity": "0",
+            "penalty": "No Effect"
+        },
+        {
+            "level": "1",
+            "surge": "+1",
+            "mended": "1 Superficial Damage",
+            "bonus": "None",
+            "reroll": "Lvl 1",
+            "severity": "1",
+            "penalty": "No Effect"
+        },
+        {
+            "level": "2",
+            "surge": "+1",
+            "mended": "2 Superficial Damage",
+            "bonus": "+1",
+            "reroll": "Lvl 1",
+            "severity": "1",
+            "penalty": "Animal & Bagged Blood = 0 Hunger"
+        },
+        {
+            "level": "3",
+            "surge": "+2",
+            "mended": "2 Superficial Damage",
+            "bonus": "+1",
+            "reroll": "Lvl 2 & below",
+            "severity": "2",
+            "penalty": "Animal & Bagged Blood = 0 Hunger"
+        },
+        {
+            "level": "4",
+            "surge": "+2",
+            "mended": "3 Superficial Damage",
+            "bonus": "+2",
+            "reroll": "Lvl 2 & below",
+            "severity": "2",
+            "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -1/human"
+        },
+        {
+            "level": "5",
+            "surge": "+3",
+            "mended": "3 Superficial Damage",
+            "bonus": "+2",
+            "reroll": "Lvl 3 & below",
+            "severity": "3",
+            "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -1/human | Minimum = 2 Hunger w/o Killing"
+        },
+        {
+            "level": "6",
+            "surge": "+3",
+            "mended": "3 Superficial Damage",
+            "bonus": "+3",
+            "reroll": "Lvl 3 & below",
+            "severity": "3",
+            "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -1/human | Minimum = 2 Hunger w/o Killing"
+        },
+        {
+            "level": "7",
+            "surge": "+4",
+            "mended": "3 Superficial Damage",
+            "bonus": "+3",
+            "reroll": "Lvl 4 & below",
+            "severity": "4",
+            "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -1/human | Minimum = 3 Hunger w/o Killing"
+        },
+        {
+            "level": "8",
+            "surge": "+4",
+            "mended": "4 Superficial Damage",
+            "bonus": "+4",
+            "reroll": "Lvl 4 & below",
+            "severity": "4",
+            "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -2/human | Minimum = 3 Hunger w/o Killing"
+        },
+        {
+            "level": "9",
+            "surge": "+5",
+            "mended": "4 Superficial Damage",
+            "bonus": "+4",
+            "reroll": "Lvl 5 & below",
+            "severity": "5",
+            "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -2/human | Minimum = 3 Hunger w/o Killing"
+        },
+        {
+            "level": "10",
+            "surge": "+5",
+            "mended": "5 Superficial Damage",
+            "bonus": "+5",
+            "reroll": "Lvl 5 & below",
+            "severity": "5",
+            "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -3/human | Minimum = 3 Hunger w/o Killing"
+        }
+    ]
+}
