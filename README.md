@@ -47,6 +47,14 @@ The Ghoul Bot can be added using [this link](https://discordapp.com/oauth2/autho
 - <strong>!social</strong> | This command provides a list of the social modifiers for countering social rolls. <br>
 - <strong>!copyright</strong> | This command provides copyright and trademark information. <br>
 
+<img src="https://imgur.com/LKKlZSA.jpg" width="500">
+<br>
+<img src="https://imgur.com/7IvIAMu.jpg" width="500">
+<br>
+<img src="https://imgur.com/K0lh7C5.jpg" width="200">
+<br>
+<img src="https://imgur.com/sg9OtlH.jpg" width="500">
+
 ---
 
 ## Support
