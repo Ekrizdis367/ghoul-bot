@@ -1,6 +1,6 @@
 # The Ghoul Bot
 
-A Discord Bot for Vampire the Masquerade rule \& information referencing.
+> A Discord Bot for Vampire the Masquerade rule \& information referencing.
 
 The Ghoul is a VtM reference bot for querying VtM 5e information quickly in Discord.
 
@@ -14,14 +14,17 @@ You can query a list of possible commands using <strong>\!ghoul</strong>
 - [Files](#files)
 - [Setup](#setup)
 - [Commands](#commands)
-- [Support](#support)
 - [Donations](#donations)
+- [Copyright](#copyright)
 
 ---
 
 ## Files
 >
 
+- <strong>ghoul.js</strong>
+- <strong>disciplines.json</strong>
+- <strong>rules.json</strong>
 
 ---
 
@@ -47,12 +50,6 @@ You can query a list of possible commands using <strong>\!ghoul</strong>
 
 ---
 
-## Support
->
-
-
----
-
 ## Donations
 >
 
@@ -60,7 +57,12 @@ You can query a list of possible commands using <strong>\!ghoul</strong>
 ---
 
 ## Copyright
->
+> Copyright and Trademark information with Paradox Interactive AB.
 
-<img src="https://static.wixstatic.com/media/05da39_90f7efee7d7243a09d9374e948e47b40~mv2_d_5500_3559_s_4_2.png/v1/fill/w_418,h_270,al_c,q_85,usm_0.66_1.00_0.01/05da39_90f7efee7d7243a09d9374e948e47b40~mv2_d_5500_3559_s_4_2.webp" width="200">
+<p>
+<img src="https://static.wixstatic.com/media/05da39_90f7efee7d7243a09d9374e948e47b40~mv2_d_5500_3559_s_4_2.png" width="175" align="left">
+Portions of the materials are the copyrights and trademarks of Paradox Interactive AB, and are used with permission. All rights reserved. For more information please visit white-wolf.com.
+<br><br>
+The Ghoul is intended as an easily-accessible digital reference for products you already own. Please ensure you only access content in accordance with your local laws.
+</p>
 
