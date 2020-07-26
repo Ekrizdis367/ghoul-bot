@@ -67,11 +67,7 @@ A thank you to World of Darkness for creating an amazing world and allowing its 
 ## Copyright
 > Copyright and Trademark information with Paradox Interactive AB.
 
-<p>
 <img src="https://static.wixstatic.com/media/05da39_90f7efee7d7243a09d9374e948e47b40~mv2_d_5500_3559_s_4_2.png" width="175" align="left">
-[The Dark Pack](https://www.white-wolf.com/dark-pack)
 Portions of the materials are the copyrights and trademarks of Paradox Interactive AB, and are used with permission. All rights reserved. For more information please visit [white-wolf.com](https://www.white-wolf.com/).
 <br><br>
-The Ghoul is intended as an easily-accessible digital reference for products you already own. Please ensure you only access content in accordance with your local laws.
-</p>
-
+The Ghoul is apart of [The Dark Pack](https://www.white-wolf.com/dark-pack) and intended as an easily-accessible digital reference for products you already own. Please ensure you only access content in accordance with your local laws.
