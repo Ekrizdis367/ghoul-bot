@@ -70,6 +70,8 @@ While this bot is free to everyone and created for the many VtM fans, it takes a
 
 A thank you to <strong>k8terpillar</strong> for her help with gathering the json data.
 
+A thank you to Melissa for creating the Profile Picture of The Ghoul.
+
 A thank you to World of Darkness for creating an amazing world and allowing its players to join the <strong>Dark Pack</strong>.
 
 ---
