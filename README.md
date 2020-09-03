@@ -66,6 +66,8 @@ If you notice a spelling or grammatical error, a bug in the script or commands, 
 
 While this bot is free to everyone and created for the many VtM fans, it takes a lot of time and effort to create, so things like Donations allow more of this to be created and maintained and the server to be kept up and the Bot live. If you are interested in Donating to help support this work, it is greatly appreciated and allows me to continue maintaining the bot and creating more features or other bots!
 
+[Donations](https://paypal.me/Ekrizdis?locale.x=en_US)
+
 #### Thanks
 
 A thank you to <strong>k8terpillar</strong> for her help with gathering the json data.
