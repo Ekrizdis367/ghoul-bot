@@ -87,6 +87,12 @@
                     "compulsion": "Transgression",
                     "description": "**[-2 to rolls not for Compulsion]** Suffering a need to entice someone to break a Tenet or Conviction, and causing a Stain before ending the Compulsion.",
                     "reference": "Anarch, 185"
+                },
+                {
+                    "name": "Hecata",
+                    "compulsion": "Morbidity",
+                    "description": "**[-3 to rolls not for Compulsion]** Fixated on death, they must predict a death or solve one without supernatural means, losing 3 dice to all other rolls until they have done so or the scene ends.",
+                    "reference": "Cults of the Blood Gods, 202"
                 }
             ]
         }
@@ -94,7 +100,7 @@
     "blood_potency": [
         {
             "level": "0",
-            "surge": "None",
+            "surge": "+1",
             "mended": "1 Superficial Damage",
             "bonus": "None",
             "reroll": "None",
@@ -103,92 +109,92 @@
         },
         {
             "level": "1",
-            "surge": "+1",
+            "surge": "+2",
             "mended": "1 Superficial Damage",
             "bonus": "None",
             "reroll": "Lvl 1",
-            "severity": "1",
+            "severity": "2",
             "penalty": "No Effect"
         },
         {
             "level": "2",
-            "surge": "+1",
+            "surge": "+2",
             "mended": "2 Superficial Damage",
             "bonus": "+1",
             "reroll": "Lvl 1",
-            "severity": "1",
+            "severity": "2",
             "penalty": "Animal & Bagged Blood = 0 Hunger"
         },
         {
             "level": "3",
-            "surge": "+2",
+            "surge": "+3",
             "mended": "2 Superficial Damage",
             "bonus": "+1",
             "reroll": "Lvl 2 & below",
-            "severity": "2",
+            "severity": "3",
             "penalty": "Animal & Bagged Blood = 0 Hunger"
         },
         {
             "level": "4",
-            "surge": "+2",
+            "surge": "+3",
             "mended": "3 Superficial Damage",
             "bonus": "+2",
             "reroll": "Lvl 2 & below",
-            "severity": "2",
+            "severity": "3",
             "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -1/human"
         },
         {
             "level": "5",
-            "surge": "+3",
+            "surge": "+4",
             "mended": "3 Superficial Damage",
             "bonus": "+2",
             "reroll": "Lvl 3 & below",
-            "severity": "3",
+            "severity": "4",
             "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -1/human | Minimum = 2 Hunger w/o Killing"
         },
         {
             "level": "6",
-            "surge": "+3",
+            "surge": "+4",
             "mended": "3 Superficial Damage",
             "bonus": "+3",
             "reroll": "Lvl 3 & below",
-            "severity": "3",
+            "severity": "4",
             "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -1/human | Minimum = 2 Hunger w/o Killing"
         },
         {
             "level": "7",
-            "surge": "+4",
+            "surge": "+5",
             "mended": "3 Superficial Damage",
             "bonus": "+3",
             "reroll": "Lvl 4 & below",
-            "severity": "4",
+            "severity": "5",
             "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -1/human | Minimum = 3 Hunger w/o Killing"
         },
         {
             "level": "8",
-            "surge": "+4",
+            "surge": "+5",
             "mended": "4 Superficial Damage",
             "bonus": "+4",
             "reroll": "Lvl 4 & below",
-            "severity": "4",
+            "severity": "5",
             "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -2/human | Minimum = 3 Hunger w/o Killing"
         },
         {
             "level": "9",
-            "surge": "+5",
+            "surge": "+6",
             "mended": "4 Superficial Damage",
             "bonus": "+4",
             "reroll": "Lvl 5 & below",
-            "severity": "5",
+            "severity": "6",
             "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -2/human | Minimum = 3 Hunger w/o Killing"
         },
         {
             "level": "10",
-            "surge": "+5",
+            "surge": "+6",
             "mended": "5 Superficial Damage",
             "bonus": "+5",
             "reroll": "Lvl 5 & below",
-            "severity": "5",
+            "severity": "6",
             "penalty": "Animal & Bagged Blood = 0 Hunger | Slake = -3/human | Minimum = 3 Hunger w/o Killing"
         }
     ]
